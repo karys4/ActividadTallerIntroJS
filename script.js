@@ -3,6 +3,15 @@ const ejercicio1 = [
   19, 88, 456, 13, 23, 24,
 ];
 
+console.log("Ejercicio 1, los siguientes son números primos:");
+for (let index = 0; index < ejercicio1.length; index++) {
+
+  if (ejercicio1[index] % 2 != 0) {
+    console.log(ejercicio1[index]);
+  }
+}
+
+
 const ejercicio2 = [
   {
     nombre: "Gabriel",
@@ -35,3 +44,11 @@ const ejercicio2 = [
     esFamiliar: true,
   },
 ];
+
+console.log("Ejercicio 2, invitados a la fiesta de ramón:");
+for (let i = 0; i < ejercicio2.length; i++) {
+
+  if (ejercicio2[i].edad >= 18 && ejercicio2[i].esFamiliar == true) {
+    console.log(ejercicio2[i].nombre);
+  }
+}
