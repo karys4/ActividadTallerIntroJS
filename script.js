@@ -3,6 +3,9 @@ const ejercicio1 = [
   19, 88, 456, 13, 23, 24,
 ];
 
+//TODO: Revisar porque el output muestra los números 85,39,25 y 77. 
+//Solo se deben mostrar los siguientes números primos: 3,71,67,17,29,19,13,23.
+
 console.log("Ejercicio 1, los siguientes son números primos:");
 for (let index = 0; index < ejercicio1.length; index++) {
 
@@ -52,3 +55,5 @@ for (let i = 0; i < ejercicio2.length; i++) {
     console.log(ejercicio2[i].nombre);
   }
 }
+
+console.log("Ejercicio 3, Sucesión de Fibonacci:");
