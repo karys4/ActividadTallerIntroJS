@@ -57,3 +57,17 @@ for (let i = 0; i < ejercicio2.length; i++) {
 }
 
 console.log("Ejercicio 3, Sucesión de Fibonacci:");
+//TODO: Imprimir el primer 1
+  let a = 0;
+  let b = 1;
+  let c;
+  let s = 1;
+
+for (let i = 1; i <= 50; i++) {
+  c = a + b;
+  console.log("Número " + i + " = " + c);
+  s = s + c;
+  a = b;
+  b = c;
+
+  }
